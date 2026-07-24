@@ -1,0 +1,329 @@
+/* AI Freshers Connect Portal - Design System */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+  --google-blue: #4285F4;
+  --google-red: #EA4335;
+  --google-yellow: #FBBC05;
+  --google-green: #34A853;
+  --primary-light: #F0F4F9;
+  --accent-purple: #8A3FFC;
+  --accent-pink: #FF7EB6;
+  --accent-orange: #FF7B29;
+  --glass-bg: rgba(255, 255, 255, 0.75);
+  --glass-border: rgba(255, 255, 255, 0.45);
+  --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.08);
+  --soft-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+}
+
+body {
+  margin: 0;
+  font-family: 'Outfit', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F8FAFC;
+  color: #1E293B;
+  overflow-x: hidden;
+}
+
+/* Glassmorphism Classes */
+.glass-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+  border-radius: 20px;
+  box-shadow: var(--glass-shadow);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.12);
+}
+
+/* Beautiful Gradients */
+.bg-gradient-primary {
+  background: linear-gradient(135deg, rgba(224, 242, 254, 0.5) 0%, rgba(243, 232, 255, 0.5) 50%, rgba(255, 228, 230, 0.5) 100%);
+}
+
+.bg-gradient-header {
+  background: linear-gradient(135deg, #4285F4 0%, #8A3FFC 100%);
+  color: white;
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #4285F4 0%, #8A3FFC 50%, #FF7EB6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-orange {
+  background: linear-gradient(135deg, #FF7B29 0%, #FBBC05 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Youth-Inspired Dynamic Animated Background System */
+.blob-container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.blob {
+  position: absolute;
+  filter: blur(100px);
+  opacity: 0.5;
+  will-change: transform, border-radius, background-color;
+}
+
+.blob-blue {
+  width: 50vw;
+  height: 50vw;
+  min-width: 380px;
+  min-height: 380px;
+  top: -10%;
+  left: -15%;
+  animation: morphBlob1 24s infinite linear;
+}
+
+.blob-purple {
+  width: 55vw;
+  height: 55vw;
+  min-width: 420px;
+  min-height: 420px;
+  bottom: -15%;
+  right: -20%;
+  animation: morphBlob2 28s infinite linear;
+}
+
+.blob-pink {
+  width: 45vw;
+  height: 45vw;
+  min-width: 320px;
+  min-height: 320px;
+  top: 35%;
+  left: 30%;
+  animation: morphBlob3 26s infinite linear;
+}
+
+@keyframes morphBlob1 {
+  0% {
+    border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+    transform: translate(0px, 0px) rotate(0deg) scale(1);
+    background-color: rgba(99, 102, 241, 0.4); /* indigo */
+  }
+  33% {
+    border-radius: 70% 30% 52% 48% / 60% 40% 60% 40%;
+    transform: translate(60px, -50px) rotate(120deg) scale(1.15);
+    background-color: rgba(236, 72, 153, 0.45); /* neon pink */
+  }
+  66% {
+    border-radius: 28% 72% 38% 62% / 40% 60% 40% 60%;
+    transform: translate(-40px, 60px) rotate(240deg) scale(0.85);
+    background-color: rgba(6, 182, 212, 0.45); /* cyan */
+  }
+  100% {
+    border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+    transform: translate(0px, 0px) rotate(360deg) scale(1);
+    background-color: rgba(99, 102, 241, 0.4);
+  }
+}
+
+@keyframes morphBlob2 {
+  0% {
+    border-radius: 70% 30% 52% 48% / 60% 40% 60% 40%;
+    transform: translate(0px, 0px) rotate(0deg) scale(1);
+    background-color: rgba(168, 85, 247, 0.35); /* purple */
+  }
+  50% {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    transform: translate(-70px, 40px) rotate(-180deg) scale(1.2);
+    background-color: rgba(244, 63, 94, 0.4); /* bright rose */
+  }
+  100% {
+    border-radius: 70% 30% 52% 48% / 60% 40% 60% 40%;
+    transform: translate(0px, 0px) rotate(-360deg) scale(1);
+    background-color: rgba(168, 85, 247, 0.35);
+  }
+}
+
+@keyframes morphBlob3 {
+  0% {
+    border-radius: 28% 72% 38% 62% / 40% 60% 40% 60%;
+    transform: translate(0px, 0px) rotate(0deg) scale(0.95);
+    background-color: rgba(251, 191, 36, 0.3); /* amber */
+  }
+  50% {
+    border-radius: 50% 50% 30% 70% / 50% 60% 40% 50%;
+    transform: translate(50px, 50px) rotate(180deg) scale(1.1);
+    background-color: rgba(16, 185, 129, 0.3); /* emerald green */
+  }
+  100% {
+    border-radius: 28% 72% 38% 62% / 40% 60% 40% 60%;
+    transform: translate(0px, 0px) rotate(360deg) scale(0.95);
+    background-color: rgba(251, 191, 36, 0.3);
+  }
+}
+
+/* Custom Interactive UI items */
+.btn-google {
+  background: white;
+  border: 1px solid #DADCE0;
+  color: #3C4043;
+  font-weight: 500;
+  border-radius: 24px;
+  padding: 10px 24px;
+  box-shadow: 0 1px 2px 0 rgba(60,64,67,0.3), 0 1px 3px 1px rgba(60,64,67,0.15);
+  transition: all 0.2s ease;
+}
+
+.btn-google:hover {
+  background: #F8F9FA;
+  box-shadow: 0 1px 3px 0 rgba(60,64,67,0.3), 0 4px 8px 3px rgba(60,64,67,0.15);
+}
+
+.btn-gradient {
+  background: linear-gradient(135deg, var(--google-blue) 0%, var(--accent-purple) 100%);
+  color: white;
+  border: none;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 12px 30px;
+  box-shadow: 0 4px 15px rgba(66, 133, 244, 0.2);
+  transition: all 0.3s ease;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(135deg, #357ae8 0%, #762ad4 100%);
+  box-shadow: 0 6px 20px rgba(66, 133, 244, 0.35);
+  transform: translateY(-2px);
+  color: white;
+}
+
+.badge-gdg {
+  background-color: #E8F0FE;
+  color: #1A73E8;
+  font-weight: 500;
+  font-size: 0.85rem;
+  border-radius: 12px;
+  padding: 6px 14px;
+}
+
+/* Custom Timetable Grid */
+.timetable-grid {
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr 1fr 1fr 1fr;
+  gap: 12px;
+}
+
+.timetable-header {
+  font-weight: bold;
+  background-color: #F1F5F9;
+  text-align: center;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.timetable-slot {
+  background: white;
+  border: 1px solid #E2E8F0;
+  border-radius: 10px;
+  padding: 14px;
+  min-height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+  transition: transform 0.2s ease;
+}
+
+.timetable-slot:hover {
+  transform: scale(1.02);
+  border-color: var(--google-blue);
+}
+
+/* Typing Indicator Animation */
+.typing-dots {
+  display: flex;
+  align-items: center;
+}
+
+.typing-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #94A3B8;
+  border-radius: 50%;
+  margin: 0 2px;
+  animation: typing 1.4s infinite both;
+}
+
+.typing-dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.typing-dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes typing {
+  0%, 80%, 100% {
+    transform: scale(0.6);
+    opacity: 0.4;
+  }
+  40% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Route Page Transitions & Neon Progress Sweeper */
+@keyframes pageFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+    filter: blur(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+.page-transition {
+  animation: pageFadeIn 0.45s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+  will-change: transform, opacity, filter;
+}
+
+@keyframes loadingSweep {
+  0% {
+    width: 0%;
+    opacity: 1;
+  }
+  50% {
+    width: 70%;
+    opacity: 1;
+  }
+  100% {
+    width: 100%;
+    opacity: 0;
+  }
+}
+
+.route-loading-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3.5px;
+  background: linear-gradient(90deg, var(--google-blue), var(--accent-purple), var(--accent-pink));
+  z-index: 9999;
+  pointer-events: none;
+  animation: loadingSweep 0.55s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}

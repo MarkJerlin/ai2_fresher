@@ -1,0 +1,198 @@
+================================================================================
+B.E. COMPUTER SCIENCE AND ENGINEERING
+CURRICULUM AND SYLLABUS (SEMESTERS I - IV)
+REGULATIONS 2024 - CHOICE BASED CREDIT SYSTEM
+================================================================================
+
+--------------------------------------------------------------------------------
+SEMESTER I
+--------------------------------------------------------------------------------
+S.No. | Course Code | Course Title                       | Category | L-T-P | Credits
+1.    | 24IP101     | Induction Programme                | -        | 0-0-0 | 0
+2.    | 24EN101     | Professional English I             | HSMC     | 3-0-0 | 3
+3.    | 24MA101     | Engineering Mathematics I          | BSC      | 3-1-0 | 4
+4.    | 24PH101     | Engineering Physics                | BSC      | 3-0-0 | 3
+5.    | 24CH101     | Engineering Chemistry              | BSC      | 3-0-0 | 3
+6.    | 24ES101     | Problem Solving & Python Prog.     | ESC      | 3-0-0 | 3
+7.    | 24ES102     | Engineering Graphics               | ESC      | 2-0-4 | 4
+8.    | 24TA101     | Heritage of Tamils                 | HSMC     | 1-0-0 | 1
+9.    | 24PH111     | Physics and Chemistry Laboratory   | BSC      | 0-0-4 | 2
+10.   | 24ES111     | Python Programming Laboratory      | ESC      | 0-0-4 | 2
+11.   | 24EM111     | Communication Laboratory I         | EEC      | 0-0-2 | 1
+--------------------------------------------------------------------------------
+TOTAL CREDITS FOR SEMESTER I: 26
+
+--------------------------------------------------------------------------------
+SEMESTER II
+--------------------------------------------------------------------------------
+S.No. | Course Code | Course Title                       | Category | L-T-P | Credits
+1.    | 24EN201     | Professional English II            | HSMC     | 3-0-0 | 3
+2.    | 24MA201     | Engineering Mathematics II         | BSC      | 3-1-0 | 4
+3.    | 24PH201     | Physics for Information Science    | BSC      | 3-0-0 | 3
+4.    | 24CS201     | Programming in C                   | PCC      | 3-0-0 | 3
+5.    | 24TA201     | Tamils and Technology              | HSMC     | 1-0-0 | 1
+6.    | 24ES201     | Basic Electrical & Electronics Eng.| ESC      | 3-0-2 | 4
+7.    | 24CS211     | Programming in C Laboratory        | PCC      | 0-0-4 | 2
+8.    | 24EM211     | Communication Laboratory II        | EEC      | 0-0-2 | 1
+--------------------------------------------------------------------------------
+TOTAL CREDITS FOR SEMESTER II: 21
+
+--------------------------------------------------------------------------------
+SEMESTER III
+--------------------------------------------------------------------------------
+S.No. | Course Code | Course Title                       | Category | L-T-P | Credits
+1.    | 24MA301     | Probability and Statistics         | BSC      | 3-1-0 | 4
+2.    | 24CS301     | Data Structures                    | PCC      | 3-0-0 | 3
+3.    | 24CS302     | Object Oriented Programming        | PCC      | 3-0-0 | 3
+4.    | 24ES301     | Digital Principles & Comp. Org.    | ESC      | 3-0-2 | 4
+5.    | 24CS303     | Essentials of Web Development      | PCC      | 3-0-2 | 4
+6.    | 24CS304     | Foundations of Data Science        | PCC      | 3-0-2 | 4
+7.    | 24CS311     | Data Structures Laboratory         | PCC      | 0-0-3 | 1.5
+8.    | 24CS312     | OOP Laboratory                     | PCC      | 0-0-3 | 1.5
+9.    | 24EM301     | Employability Skills I             | EEC      | 0-0-2 | 1
+--------------------------------------------------------------------------------
+TOTAL CREDITS FOR SEMESTER III: 26
+
+--------------------------------------------------------------------------------
+SEMESTER IV
+--------------------------------------------------------------------------------
+S.No. | Course Code | Course Title                       | Category | L-T-P | Credits
+1.    | 24MA401     | Discrete Mathematics               | BSC      | 3-1-0 | 4
+2.    | 24CH401     | Environmental Sci. & Sustainability| BSC      | 2-0-0 | 2
+3.    | 24CS401     | Theory of Computation              | PCC      | 3-0-0 | 3
+4.    | 24CS402     | Database Management Systems        | PCC      | 3-0-0 | 3
+5.    | 24CS403     | Operating Systems                  | PCC      | 3-0-0 | 3
+6.    | 24CS404     | Design and Analysis of Algorithms  | PCC      | 3-0-2 | 4
+7.    | 24CS411     | DBMS Laboratory                    | PCC      | 0-0-3 | 1.5
+8.    | 24CS412     | Operating Systems Laboratory       | PCC      | 0-0-3 | 1.5
+9.    | 24EM401     | Employability Skills II            | EEC      | 0-0-2 | 1
+10.   | NSS/YRC     | NSS / YRC Non-Credit Course        | -        | -     | 0
+--------------------------------------------------------------------------------
+TOTAL CREDITS FOR SEMESTER IV: 23
+
+================================================================================
+COURSE OUTLINES & SYLLABUS DETAILS
+================================================================================
+
+--------------------------------------------------------------------------------
+24EN101 - PROFESSIONAL ENGLISH I (Credits: 3)
+--------------------------------------------------------------------------------
+COURSE OBJECTIVES:
+- To improve the communicative competence of learners.
+- To learn and apply basic grammatical structures in suitable contexts.
+- To develop learners' ability to read and write complex texts, summaries, and essays.
+
+UNIT I: FUNDAMENTALS OF GRAMMAR
+Reading short texts from journals/newspapers. Writing formal letters and emails.
+Grammar: Parts of Speech, Tenses, Question types (WH- / Yes/No questions & tags).
+Vocabulary: Word formation, Prefixes, Suffixes, Singular/Plural.
+
+UNIT II: GRAMMAR AND USAGE
+Reading biographies, travelogues, and technical blogs. Paragraph writing.
+Grammar: Subject-Verb agreement, Gerund and Infinitive, Discourse markers.
+Vocabulary: Synonyms, Antonyms, Abbreviations (technical contexts).
+
+UNIT III: FORMAL WRITING
+Reading advertisements, gadget reviews. Writing definitions, instructions, recommendations.
+Grammar: Imperatives, Adjectives, Degrees of comparison.
+Vocabulary: Misspelt words, commonly confused words.
+
+UNIT IV: TRANSFERRING INFORMATION
+Interpreting visual materials (Bar charts, Pie charts, Flowcharts). Note-making.
+Grammar: Articles, Pronouns, prepositions, error correction.
+Vocabulary: Collocations, Compound words.
+
+UNIT V: WRITING ESSAY
+Reading comprehension. Essay writing (descriptive, narrative, cause-and-effect).
+Grammar: Spelling, punctuation, sentence formation, negation.
+Vocabulary: Cause & Effect expressions.
+
+--------------------------------------------------------------------------------
+24MA101 - ENGINEERING MATHEMATICS I (Credits: 4)
+--------------------------------------------------------------------------------
+UNIT I: MATRICES
+Eigenvalues and Eigenvectors of a real matrix. Cayley-Hamilton theorem. Diagonalization of matrices by orthogonal transformation. Reduction of quadratic forms.
+
+UNIT II: DIFFERENTIAL CALCULUS
+Limits, Continuity, Derivatives, Differentiation rules (product, quotient, chain rules). Maxima and Minima of functions of one variable.
+
+UNIT III: FUNCTIONS OF SEVERAL VARIABLES
+Partial differentiation, Homogeneous functions and Euler's theorem. Total derivative. Jacobians. Taylor's series for functions of two variables. Lagrange multipliers.
+
+UNIT IV: SINGLE INTEGRAL
+Definite and Indefinite integrals. Substitution rule, Integration by parts, Trigonometric integrals, partial fractions. Improper integrals.
+
+UNIT V: MULTIPLE INTEGRALS
+Double integrals. Change of order of integration. Double integrals in polar coordinates. Area enclosed by plane curves. Triple integrals.
+
+--------------------------------------------------------------------------------
+24ES101 - PROBLEM SOLVING AND PYTHON PROGRAMMING (Credits: 3)
+--------------------------------------------------------------------------------
+UNIT I: COMPUTATIONAL THINKING AND PROBLEM SOLVING
+Algorithms, building blocks of algorithms (statements, state, control flow, functions), pseudo-code, flow charts. Iteration and recursion.
+
+UNIT II: DATA TYPES, EXPRESSIONS, STATEMENTS
+Python interpreter, values and types (int, float, boolean, string, list). Variables, expressions, statements, tuple assignment, precedence of operators.
+
+UNIT III: CONTROL FLOW, FUNCTIONS, STRINGS
+Conditionals: Boolean values, operators, if, if-else, if-elif-else. Iteration: while, for, break, continue. Fruitful functions, scope, recursion. Strings.
+
+UNIT IV: LIST, TUPLE, DICTIONARY
+Lists: operations, slices, methods. Tuples: assignment, return values. Dictionaries: operations and methods. Advanced list processing (list comprehension).
+
+UNIT V: FILES, MODULES, PACKAGES
+Files and exceptions: text files, reading and writing files. Command line arguments. Exception handling. Modules and packages.
+
+--------------------------------------------------------------------------------
+24CS201 - PROGRAMMING IN C (Credits: 3)
+--------------------------------------------------------------------------------
+UNIT I: INTRODUCTION TO C PROGRAMMING
+Structure of C program. Constants, variables, data types. Operators, expressions, type conversions.
+
+UNIT II: CONTROL STRUCTURES
+Decision making (if, if-else, nested if, switch). Loops (while, do-while, for). Break, continue, goto.
+
+UNIT III: ARRAYS AND STRINGS
+One-dimensional and two-dimensional arrays. Character arrays and strings. String handling functions.
+
+UNIT IV: FUNCTIONS AND POINTERS
+User-defined functions, parameter passing (call by value, call by reference). Pointers: variables, initialization, pointer arithmetic, passing arrays to functions.
+
+UNIT V: STRUCTURES AND FILE MANAGEMENT
+Structures: definition, initialization, structure pointers, unions. File management: open, close, input/output operations, error handling.
+
+--------------------------------------------------------------------------------
+24CS301 - DATA STRUCTURES (Credits: 3)
+--------------------------------------------------------------------------------
+UNIT I: LINEAR DATA STRUCTURES - LIST
+Abstract Data Types (ADTs). List ADT: array implementation, linked lists, circular linked lists, doubly linked lists. Polynomial manipulation.
+
+UNIT II: LINEAR DATA STRUCTURES - STACKS AND QUEUES
+Stack ADT: array and linked list implementation. Applications: balancing symbols, infix to postfix. Queue ADT: array and linked list implementation, circular queue, double ended queue (deque).
+
+UNIT III: NON-LINEAR DATA STRUCTURES - TREES
+Tree terminologies. Binary trees, expression trees, binary search tree ADT, AVL trees. Tree traversals. Priority queues (heaps).
+
+UNIT IV: NON-LINEAR DATA STRUCTURES - GRAPHS
+Graph definitions and representations. Graph traversals: BFS, DFS. Topological sort. Shortest path: Dijkstra's algorithm. Minimum Spanning Trees: Prim's and Kruskal's algorithms.
+
+UNIT V: SORTING AND HASHING TECHNIQUES
+Sorting: Selection sort, bubble sort, insertion sort, shell sort, heap sort. Hashing: hash functions, separate chaining, open addressing, extendible hashing.
+
+--------------------------------------------------------------------------------
+24CS402 - DATABASE MANAGEMENT SYSTEMS (Credits: 3)
+--------------------------------------------------------------------------------
+UNIT I: DATABASE SYSTEM CONCEPTS
+Data models, schemas, instances. Three-schema architecture. Entity-Relationship (ER) model: entity types, relationships, structural constraints.
+
+UNIT II: RELATIONAL DATABASE DESIGN
+ER-to-Relational mapping. Relational model constraints and schemas. SQL: data definition, basic queries, joins, views, triggers. Relational algebra.
+
+UNIT III: NORMALIZATION FOR RELATIONAL DATABASES
+Functional dependencies. Normal forms: 1NF, 2NF, 3NF, BCNF. Query processing, optimization, and evaluation trees.
+
+UNIT IV: TRANSACTION PROCESSING
+Transaction concepts, properties (ACID). Concurrency control: two-phase locking (2PL), timestamp ordering. Serializability.
+
+UNIT V: INDEXING AND STORAGE
+Indexing structures: B-trees, B+ trees. RAID. Parallel and distributed databases. Introduction to NoSQL (MongoDB).
